@@ -61,7 +61,8 @@ Follow these steps to set up and run the Excel Data Filtering and Consolidation 
 ### File Structure
 
 Organize your input Excel file and master data CSVs in a structure similar to this. The script uses relative paths, so ensure your script is placed appropriately.
-```├── your_project_folder/
+```bash
+├── your_project_folder/
     └──  your_script_name.py
     └── Excel File To Be Filtered.xslx    #data to be cleaned
     └──  Master Data.cvs      #all the verified data
