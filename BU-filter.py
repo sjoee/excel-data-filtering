@@ -5,11 +5,10 @@ import os # For file system operations
 # --- Configuration ---
 # Use raw string literal (r"...") for Windows paths to avoid issues with backslashes
 # **CRITICAL: Ensure these paths are EXACTLY as they appear in your File Explorer**
-USER_INPUT_FILE = r'.\Phishing Simulation\2025\Sunway Travels\Results\Form Data\Sunway Healthcare 200 part1.xlsx'
-#USER_INPUT_FILE = r'.\Phishing Simulation\2025\Sunway Travels\Results\Form Data\Sunway Travels_ Northern Lights Trip Registration Form(1-363).xlsx'
+USER_INPUT_FILE = r'.\excel_file_to_be_filtered.xlsx'
 USER_INPUT_SHEET = 'Sheet1'
 
-MASTER_DATA_DIR = r'.\Phishing Simulation\2025\Sunway Travels\User Data\BUSort'
+MASTER_DATA_DIR = r'.\master_data.cvs'
 
 # --- Dynamic Output File Naming ---
 input_filename = os.path.basename(USER_INPUT_FILE)
